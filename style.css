@@ -1,0 +1,59 @@
+.neck {
+  height: 200px;
+  width: 100px;
+  background-color: rgb(67, 64, 64);
+}
+
+body {
+  background-color: rgb(14, 14, 13);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-body {
+  height: 400px;
+  width: 200px;
+  background-color: rgb(55, 53, 53);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.light {
+  width: 90px;
+  height: 90px;
+  border-radius: 50em;
+  padding: 5px;
+
+}
+
+.red {
+  background-color: red;
+}
+
+.red:hover {
+  box-shadow: 0px 0px 100px rgb(232, 82, 82);
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.yellow:hover {
+  box-shadow: 0px 0px 100px rgb(233, 233, 7);
+}
+
+.green {
+  background-color: green;
+}
+
+.green:hover {
+  box-shadow: 0px 0px 100px rgb(13, 226, 13);
+}
+
+.d-flex {
+  justify-content: center;
+}
